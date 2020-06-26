@@ -1,0 +1,5 @@
+testando
+a
+leitura
+de
+arquivos

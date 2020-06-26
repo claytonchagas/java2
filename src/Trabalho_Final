@@ -1,0 +1,42 @@
+Trabalho Final
+- Implementar as actions via JPA
+- Classe de Modelo: Contato, mas agora
+utilizando JPA ao invés de DAO
+- Trabalho em grupo de 3 alunos (4 grupos)
+
+- GRUPOS:
+Gr1: Robert, Luan, Marcelo
+Gr2: Renato, Pedro, Lucas Souza
+Gr3: Fernado, Karla, Lucas Sirhal
+Gr4: Evanildo, Kamila William, Lucas Vieira
+
+Nível 1 (para menção S ou B - via terminal com Scanner quando
+necessário):
+- Enviar para plataforma até 16h e apresentar às 18h
+em 03-JUL projeto com as ações:
+1. Criação do Projeto com respectivas
+classes, organização e arquivos de
+configuração
+2. Criação da classe de modelo anotada
+3. Criação da classe para construção
+do banco
+4. Criação das classes de ações:
+	4.1. Inserir contato
+	4.2. Atualizar contato (pelo Id)
+	4.3. Excluir contato (pelo Id)
+	4.4. Buscar todos os contatos (JPQL)
+	
+	select * from tarefas... -> ANSI SQL: diretamente no banco
+	select t from Tarefa... -> JPQL: pesquisa na classe
+
+Nível 2 (para menção O - via terminal com Scanner quando
+necessário):
+1. Realizar busca pelo contato
+utilizando a letra inicial do nome via JPA
+2. Realizar busca pelo contato
+utilizando o Id via JPA
+
+Nível 3 (questão bônus, em outro projeto):
+1. Realizar as operações do Nível 1
+mas utilizando uma aplicação de janelas
+com AWT e Swing
